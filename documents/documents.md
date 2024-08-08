@@ -9,6 +9,7 @@
 # Entidades
 
 - [] Product (Id, Name, Barcode, Quantity, Manufacturer, Categories)
+- [] Manufacturer (Id, iD_Contact, Name, CNPJ)
 
 
 
