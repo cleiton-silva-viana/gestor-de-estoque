@@ -6,6 +6,10 @@
 - [] Desativar produto
 - [] Alterar descrição do produto
 
+# Entidades
+
+- [] Product (Id, Name, Barcode, Quantity, Manufacturer, Categories)
+
 
 
 
