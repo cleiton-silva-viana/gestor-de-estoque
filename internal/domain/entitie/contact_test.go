@@ -11,10 +11,7 @@ var Corporation = Contact{
 	Email: "corporation@email.com",
 }
 
-func Test_CreateContact_AllInputsAreOk(t *testing.T) {
-	expected := nil
-
-	result := Corporation.CreateContact()
-
-	assert.Nil(t, expected, "The object can't have return error")
+func Test_CheckIfFieldsAreEmpyt_AllFieldsAreOk(t *testing.T) {
+	result := Corporation.CheckIfFieldsAreEmpty()
+	assert.Nil(t, result, "The object can't have return error")
 }
